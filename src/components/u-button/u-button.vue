@@ -1,5 +1,5 @@
 <template>
-  <button :disabled="disabled" :class="['cu-btn', type ? line ? 'line-'+type:'bg-'+ type:'',size,round ? 'round':'',shadow ? 'shadow':'']" @click="btnClick">
+  <button :class="['cu-btn', type ? line ? 'line-'+type:'bg-'+ type:'',size,round ? 'round':'',shadow ? 'shadow':'',color ? 'text-'+color:'']" :disabled="disabled" @click="btnClick">
     <slot></slot>
   </button>
 </template>
@@ -56,6 +56,14 @@ export default {
     disabled:{
       type:Boolean,
       default:() => false
+    },
+    /**
+     * 按钮文字颜色
+     * @param 颜色参考colorui 文字颜色
+     */
+    color:{
+      type:String,
+      default:() => ""
     }
   },
   methods:{
@@ -65,8 +73,3 @@ export default {
   }
 }
 </script>
-
-<style>
-@import "./u-button.css";
-@import "/static/css/main.css";
-</style>
