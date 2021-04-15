@@ -1,16 +1,144 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "uni-app"
-			}
-		}
-	],
-	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
-	}
+  "pages": [
+    {
+      "path": "pages/cu-button/index",
+      "style": {
+        "navigationBarTitleText": "cu-button"
+      }
+    },
+    {
+      "path": "pages/cu-tag/index",
+      "style": {
+        "navigationBarTitleText": "cu-tag"
+      }
+    },
+    {
+      "path": "pages/cu-icon/index",
+      "style": {
+        "navigationBarTitleText": "cu-icon"
+      }
+    },
+    {
+      "path": "pages/cu-layout/index",
+      "style": {
+        "navigationBarTitleText": "cu-layout"
+      }
+    },
+    {
+      "path": "pages/cu-avatar/index",
+      "style": {
+        "navigationBarTitleText": "cu-avatar"
+      }
+    },
+    {
+      "path": "pages/cu-progress/index",
+      "style": {
+        "navigationBarTitleText": "cu-progress"
+      }
+    },
+    {
+      "path": "pages/cu-form/index",
+      "style": {
+        "navigationBarTitleText": "cu-form"
+      }
+    },
+    {
+      "path": "pages/cu-switch/index",
+      "style": {
+        "navigationBarTitleText": "cu-switch"
+      }
+    },
+    {
+      "path": "pages/cu-banner/index",
+      "style": {
+        "navigationBarTitleText": "cu-banner"
+      }
+    },
+    {
+      "path": "pages/cu-grid/index",
+      "style": {
+        "navigationBarTitleText": "cu-grid"
+      }
+    },
+    {
+      "path": "pages/cu-list/index",
+      "style": {
+        "navigationBarTitleText": "cu-list"
+      }
+    },
+    {
+      "path": "pages/cu-msg-list/index",
+      "style": {
+        "navigationBarTitleText": "cu-msg-list"
+      }
+    },
+    {
+      "path": "pages/cu-timeline/index",
+      "style": {
+        "navigationBarTitleText": "cu-timeline"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  },
+  "condition": {
+    "current": 0,
+    "list": [
+      {
+        "name": "button",
+        "path": "pages/cu-button/index",
+        "query": ""
+      },
+      {
+        "name": "tag",
+        "path": "pages/cu-tag/index",
+        "query": ""
+      },
+      {
+        "name": "avatar",
+        "path": "pages/cu-avatar/index",
+        "query": ""
+      },
+      {
+        "name": "list ",
+        "path": "pages/cu-msg-list/index",
+        "query": ""
+      },
+      {
+        "name": "grid",
+        "path": "pages/cu-grid/index",
+        "query": ""
+      },
+      {
+        "name": "progress",
+        "path": "pages/cu-progress/index",
+        "query": ""
+      },
+      {
+        "name": "form",
+        "path": "pages/cu-form/index",
+        "query": ""
+      },
+      {
+        "name": "list",
+        "path": "pages/cu-list/index",
+        "query": ""
+      },
+      {
+        "name": "banner",
+        "path": "pages/cu-banner/index",
+        "query": ""
+      },
+      {
+        "name": "timeline",
+        "path": "pages/cu-timeline/index",
+        "query": ""
+      }
+    ]
+  }
 }
