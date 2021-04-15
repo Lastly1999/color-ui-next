@@ -20,7 +20,7 @@ export default {
       default: () => []
     },
     /**
-     * checkbox 颜色定义
+     * checkbox.md 颜色定义
      * @param color
      */
     color: {
