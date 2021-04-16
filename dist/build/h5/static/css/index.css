@@ -1,0 +1,13 @@
+/*
+  Color-ui-next 1.0.0
+  Color-ui-next 组件库样式主文件 基于colorui二次封装 致敬 color-ui 感谢文晓港大佬做出了一个很完美的css库
+  Github: https://github.com/Lastly1999/uni-colorui-next
+  by Lastly & arthur create_time:2021/3/26
+*/
+
+/* 动画样式文件 */
+@import './animation.css';
+/* 组件样式主文件 */
+@import './main.css';
+/* 图标样式文件 */
+@import "./icon.css";
