@@ -7,14 +7,6 @@ _一个基于ColorUI CSS库二次开发的uni-app组件库 在原先的基础上
 
 [打开预览地址](http://pink266.asia/#/)
 
-# ![输入图片说明](https://images.gitee.com/uploads/images/2021/0415/115111_c20a241e_5335988.jpeg "hero.jpg")
-
-_一个基于ColorUI CSS库二次开发的uni-app组件库 在原先的基础上扩展了如表单验证 属性切换 遵守dataCom开发规则_
-感谢[@文晓港](https://github.com/weilanwl) 大神开发的uni-app平台中最符合我审美的一款css库
-
- :exclamation: 组件库现在还在开发中 后续还会加入更多内容 请勿在生产环境中使用
-
-[打开预览地址](http://pink266.asia/#/)
 
 # :zap: 快速使用
 
