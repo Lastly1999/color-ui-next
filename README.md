@@ -9,20 +9,25 @@ _一个基于ColorUI CSS库二次开发的uni-app组件库 在原先的基础上
 
 # uni-colorui-vuepress
 
-##  :zap: 项目安装
-```
-yarn install
-```
-
-###  :oncoming_automobile: 开发环境下运行
-```
-yarn serve
+##  :zap: npm 安装
+```shell
+npm install uni-next-colorui -S
 ```
 
-###  :tw-1f528: 打包构建
+###  :oncoming_automobile: 项目中使用 -> uni-app 最新版本 main.js入口
+```javascript
+import colorui from 'uni-next-colorui'
+import 'uni-next-colorui/style/index.css'
+Vue.use(colorui)
 ```
-yarn build
+
+##  :zap: 按需引入
+```javascript
+import {cuButton} from 'uni-next-colorui'
+import 'uni-next-colorui/style/index.css'
+Vue.component('cuButton',cuButton)
 ```
+
 ### 已实现组件 :tw-1f525: 
  :tw-2705: Tag标签<br/>
  :tw-2705: Progress进度条<br/>
