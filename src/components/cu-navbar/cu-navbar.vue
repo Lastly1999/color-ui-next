@@ -1,17 +1,17 @@
 <template>
-        <view class="cu-custom" :style="[{height:CustomBar + 'px'}]">
-            <view class="cu-bar fixed" :style="style"
-                  :class="[bgImage!=''?'none-bg text-white bg-img':'','bg-'+bgColor, shadow?'shadow-blur':'']">
-                <view class="action" @tap="BackPage" v-if="isBack">
-                    <text class="cuIcon-back"></text>
-                    <slot name="backText"></slot>
-                </view>
-                <view class="content" :style="[{top:StatusBar + 'px'}]">
-                    <slot name="content"></slot>
-                </view>
-                <slot name="right"></slot>
+    <view class="cu-custom" :style="[{height:CustomBar + 'px'}]">
+        <view class="cu-bar fixed" :style="style"
+              :class="[bgImage!=''?'none-bg text-white bg-img':'','bg-'+bgColor, shadow?'shadow-blur':'']">
+            <view class="action" @tap="BackPage" v-if="isBack">
+                <text class="cuIcon-back"></text>
+                <slot name="backText"></slot>
             </view>
+            <view class="content" :style="[{top:StatusBar + 'px'}]">
+                <slot name="content"></slot>
+            </view>
+            <slot name="right"></slot>
         </view>
+    </view>
 </template>
 
 <script>
@@ -22,7 +22,7 @@ export default {
             CustomBar: ''
         };
     },
-    name: 'cu-custom',
+    name: 'cuNavBar',
     computed: {
         style() {
             let StatusBar = this.StatusBar;
@@ -105,7 +105,3 @@ export default {
     }
 }
 </script>
-
-<style>
-
-</style>

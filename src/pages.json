@@ -77,6 +77,11 @@
       "style": {
         "navigationBarTitleText": "cu-timeline"
       }
+    },
+    {
+      "name": "navbar",
+      "path": "pages/cu-navbar/index",
+      "query": ""
     }
   ],
   "globalStyle": {
@@ -137,6 +142,11 @@
       {
         "name": "timeline",
         "path": "pages/cu-timeline/index",
+        "query": ""
+      },
+      {
+        "name": "navbar",
+        "path": "pages/cu-navbar/index",
         "query": ""
       }
     ]

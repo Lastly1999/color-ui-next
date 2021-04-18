@@ -1,13 +1,19 @@
 <template>
     <view>
-        <h3 class="title margin">普通宫格菜单</h3>
-        <cu-grid :data="gridData"></cu-grid>
+        <cu-navbar shadow bgColor="gradual-red" :isBack="false">
+            <block slot="backText">返回</block>
+            <block slot="content">宫格菜单</block>
+        </cu-navbar>
+        <view>
+            <h3 class="title margin">普通宫格菜单</h3>
+            <cu-grid :data="gridData"></cu-grid>
 
-        <h3 class="title margin">带边框的宫格菜单</h3>
-        <cu-grid :data="gridData" border></cu-grid>
+            <h3 class="title margin">带边框的宫格菜单</h3>
+            <cu-grid :data="gridData" border></cu-grid>
 
-        <h3 class="title margin">宫格菜单行数量</h3>
-        <cu-grid :data="gridData" border :col="5" @click="colClick"></cu-grid>
+            <h3 class="title margin">宫格菜单行数量</h3>
+            <cu-grid :data="gridData" border :col="5" @click="colClick"></cu-grid>
+        </view>
     </view>
 </template>
 
