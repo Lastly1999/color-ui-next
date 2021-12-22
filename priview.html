@@ -18,8 +18,10 @@
   <iframe id="ifra3" ref="iframeDemo1" name="vedioiframe1" height="800" style="border: medium none;"
     src="https://lastly1999.github.io/color-ui-next/dist/build/h5/index.html#/" width="100%"></iframe>
   <script>
-    // 接收方：
-    window.addEventListener("message", (e) => { console.log(e) }, false);
+    (() => {
+      // 接收方：
+      window.addEventListener("message", (e) => { console.log(e) }, false);
+    })()
   </script>
 </body>
 
