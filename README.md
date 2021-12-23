@@ -5,7 +5,7 @@ _一个基于ColorUI CSS库二次开发的uni-app组件库 在原先的基础上
 
  :exclamation: 组件库现在还在开发中 后续还会加入更多内容 请勿在生产环境中使用
 
-[打开预览地址](http://47.94.249.191)
+[打开预览地址](https://github.com/Lastly1999/color-ui-next/doc/index.html)
 
 
 # :zap: 快速使用
