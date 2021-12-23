@@ -19,11 +19,13 @@
     src="https://lastly1999.github.io/color-ui-next/dist/build/h5/index.html#/" width="100%"></iframe>
   <script>
     (() => {
+      console.log()
+
+      var path = "https://lastly1999.github.io/color-ui-next/dist/build/h5/index.html#/"
       window.addEventListener("message", (e) => { 
-      console.log(e) 
-    });
+        document.querySelector("#ifra3").src = path + e.data
+      });
     })()
-   
   </script>
 </body>
 
