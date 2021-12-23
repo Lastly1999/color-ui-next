@@ -29,16 +29,16 @@ import 'uni-next-colorui/style/index.css'
 Vue.component('cuButton',cuButton)
 ```
 
-### 已实现组件 :tw-1f525: 
- :tw-2705: Tag标签<br/>
- :tw-2705: Progress进度条<br/>
- :tw-2705: Icon图标<br/>
- :tw-2705: Layout布局<br/>
- :tw-2705: Banner轮播图<br/>
- :tw-2705: List列表<br/>
- :tw-2705: MsgList消息列表<br/>
- :tw-2705: GridList宫格菜单<br/>
- :tw-2705: TimeLine时间轴<br/>
+### 已实现组件 :white_check_mark:
+ :white_check_mark: Tag标签<br/>
+ :white_check_mark: Progress进度条<br/>
+ :white_check_mark: Icon图标<br/>
+ :white_check_mark: Layout布局<br/>
+ :white_check_mark: Banner轮播图<br/>
+ :white_check_mark: List列表<br/>
+ :white_check_mark: MsgList消息列表<br/>
+ :white_check_mark: GridList宫格菜单<br/>
+ :white_check_mark: TimeLine时间轴<br/>
 
 ### 表单组件  :white_check_mark:
  :white_check_mark: Button按钮 <br/>
